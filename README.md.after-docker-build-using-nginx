@@ -1,0 +1,8 @@
+https://www.magalix.com/blog/deploy-react-app-to-kubernetes-cluster
+docker prune and kubernetes restart
+npx create-react-app hello
+cd hello
+npm start
+npm  run-script build
+Created both nginx and node dockerfiles
+docker build -f Dockerfile.nginx -t hello .
